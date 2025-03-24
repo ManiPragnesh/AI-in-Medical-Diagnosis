@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    background-color: #f9f9f9; /* Subtle background for a clean look */
+    color: #333; /* Dark gray text for readability */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+}
+
+/* Container Styles */
+.container {
+    background: #ffffff; /* White background for contrast */
+    padding: 30px; /* Generous padding for breathing room */
+    border-radius: 12px; /* Rounded corners for a modern touch */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px; /* Limit width for better readability */
+    width: 90%; /* Responsive width */
+    text-align: center; /* Center-align text */
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 2rem; /* Larger font for emphasis */
+    color: #007BFF; /* Blue for branding and visual appeal */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5; /* Comfortable reading line spacing */
+    margin-bottom: 20px;
+    color: #555; /* Softer gray for subtler text */
+}
+
+/* Form and Input Styles */
+label {
+    font-weight: bold;
+    display: block; /* Place label on its own line */
+    margin-top: 15px;
+    color: #333; /* Standard text color */
+}
+
+select, input {
+    display: block;
+    width: 90%;
+    max-width: 500px; /* Keep inputs compact on larger screens */
+    margin: 10px auto; /* Center-align inputs */
+    padding: 10px;
+    border-radius: 8px; /* Smooth rounded corners */
+    border: 1px solid #ddd; /* Neutral borders */
+    font-size: 1rem;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.05); /* Slight shadow for depth */
+}
+
+/* Button Styles */
+button {
+    background-color: #007BFF; /* Blue for call-to-action */
+    color: white; /* White text for good contrast */
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    padding: 10px 15px; /* Ensure buttons are ergonomic */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue for hover effect */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+button:active {
+    transform: translateY(0); /* Reset lift effect on click */
+}
+
+/* Result Section Styles */
+#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #28a745; /* Green for success messages */
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem; /* Adjust heading size for smaller screens */
+    }
+
+    p {
+        font-size: 0.9rem; /* Slightly smaller text for mobile readability */
+    }
+}

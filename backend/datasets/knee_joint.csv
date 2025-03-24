@@ -1,0 +1,9 @@
+age,pain_level,joint_swelling,stiffness,difficulty_walking,crepitus,label
+55,8,1,1,1,1,1
+40,5,0,1,0,0,0
+65,9,1,1,1,1,1
+30,4,0,0,0,0,0
+70,10,1,1,1,1,1
+50,6,1,1,0,1,1
+45,7,0,0,0,0,0
+60,9,1,1,1,1,1
